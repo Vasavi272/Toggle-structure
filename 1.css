@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    transition: background-color 0.3s;
+}
+
+.container.active {
+    background-color: #4caf50; /* Change to your desired active color */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
